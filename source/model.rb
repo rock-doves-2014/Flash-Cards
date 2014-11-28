@@ -1,19 +1,57 @@
-class FlashCard
-  # Models our flashcards
-  attr_reader :category, :question, :answer
-  attr_accessor :answered
+require "pry"
 
-  def initialize
-    # generate object based on hash keys (csv fields)
+#==========================PARSER=======================
+require "csv"
+
+module CSVParser
+
+  def import file
+    CSV.read(file, headers:true, header_converters: :symbol).map {|row| row.to_hash}
+  end
+
+  def export(filename, data)
+    CSV.open(filename, 'wb') do |csv|
+      csv << data.first.keys
+
+      data.each {|row| csv << row.values}
+    end
   end
 end
 
-class CardLoader
-  # include CSVParser
+#========================= MODEL=========================
 
-  # Pull data from the csv and parse into flashcard objects
+class FlashCard
+  # Models our flashcard objects
+  attr_reader :category, :question, :answer
+  attr_accessor :answered
 
-  # TODO: pulling only parts of the CSV at the time (as opposed to slurping the entire CSV at once)
+  def initialize(args = {})
+  # generates flashcard objects based on hash keys (csv fields)
+    @category = args[:category]
+    @question = args[:question]
+    @answer = args[:answer]
+  end
+end
 
-  # TODO: make sure repeat flashcards are not shown (ie, store flashcard_id)
+
+class Dealer
+   include CSVParser
+
+  # Pull data from the csv and parses into hashes
+   def initialize
+    @file = import("game_questions.csv")
+    @cards_array = @file.map{|row| FlashCard.new(row)}
+  end
+
+  # Map csv hashes into an individual FlashCard object
+   def load_card #(draw card?)
+    @cards_array.shift
+  end
+
+  #Check users guess agains the answer for the current card.
+  def check(answer, guess)
+    #is it bad that we're calling the FlashCard class's methods on an instance variable of this class?
+    guess.downcase == answer.downcase
+  end
+
 end
