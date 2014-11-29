@@ -6,8 +6,8 @@ class Game
 
   def initialize
     # something to generate new cards
-    @dealer = Dealer.new
-    @current_card = next_card
+    # @dealer = Dealer.new('game_questions.csv')
+    @current_card = nil
     @correctly_answered = []
     @incorrectly_answered = []
   end
@@ -15,12 +15,22 @@ class Game
   def start_menu
     View.clear
     View.welcome
-    input = View.user_input.downcase
-    if input == 'start'
-      play_game
-    else
-      start_menu
+    case View.user_input
+    when '1'
+      input = 'Animals'
+    when '2'
+      input = 'Food'
+    when '3'
+      input = 'Computers'
     end
+    @dealer = Dealer.new('game_questions.csv', input)
+    next_card
+    play_game
+    # if input == 'start'
+    #   play_game
+    # else
+    #   start_menu
+    # end
   end
 
   def play_game
@@ -42,11 +52,11 @@ class Game
       if dealer.check(@current_card.answer, guess) # is this bad design?
         View.correct
         mark_correct(@current_card)
-        sleep 2
+        sleep 3
       else
         View.incorrect(@current_card.answer)
         mark_incorrect(@current_card)
-        sleep 2
+        sleep 3
       end
       if next_card
         next_card
