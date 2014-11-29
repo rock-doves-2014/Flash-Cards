@@ -8,7 +8,7 @@ module CSVParser
   def import(file) #category
     CSV.read(file, headers:true, header_converters: :symbol).map {|row| row.to_hash}
   end
-    # use CSV.foreach with logic filter out category
+
   def export(filename, data)
     CSV.open(filename, 'wb') do |csv|
       csv << data.first.keys
