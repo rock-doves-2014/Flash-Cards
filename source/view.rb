@@ -3,10 +3,11 @@ class View
     puts '~*~'*10
     puts 'Welcome to BrainSnap'
     puts
-    puts "\"Start\" to begin!"
+    puts "Enter Your \"Username\" to begin!"
     puts '~*~'*10
     puts
   end
+
 
   def self.user_input
     gets.chomp
