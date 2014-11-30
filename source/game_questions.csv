@@ -1,3 +1,4 @@
+category,question,answer
 Animals,What kind of animal is the emblem of the US republican political party?,Elephant
 Animals,What color is an ocelot?,Yellow with black markings
 Animals,Which type of animals have more teeth reptiles or mammals?,Mammals
@@ -77,7 +78,7 @@ Animals,Who are the queen bee's closest servants in a beehive?,Drones
 Animals,What is the animal with the Latin name syncerus caffer?,Cape Buffalo
 Animals,A Quagga is an extinct animal that was a distant cousin to which animal that exists today?,Zebra
 Animals,What does a carpophagus animal feed on?,Fruit
-Animals,Which animal has rectangular pupils? ,Goat
+Animals,Which animal has rectangular pupils?, Goat
 Animals,What kind of animal mates only once for 12 hours and can sleep for three years?,Snail
 Animals,Do mosquitoes have teeth?,yes
 Animals,A typical mayfly lives for how many days?,One
@@ -121,7 +122,7 @@ Animals,A lepidopterist collects?,Butterflies & moths
 Animals,Moby Dick was what color?,White
 Animals,On the top of the Calcutta Cup what animal will you find?,Elephant
 Animals,What's a Natterjack?,A Toad
-Animals,What's the smallest bird in the world? ,The Hummingbird
+Animals,What's the smallest bird in the world?, The Hummingbird
 Animals,Scooby Doo is what kind of dog?,Great Dane
 Animals,Which animals does Lupine relate to?,Wolves
 Animals,This extinct creature got its name from the portuguese for stupid?,Dodo
@@ -155,7 +156,7 @@ Food,What nation produces two thirds of the world's vanilla?,Madagascar
 Food,What was the drink we know as the Bloody Mary originally called?Snapper,The Red
 Food,What was the first commercially manufactured breakfast cereal?Wheat,Shredded
 Food,When Birdseye introduced the first frozen food in 1930 what did the company call it?,Frosted Food
-Food,What American city produces most of the egg rolls sold in grocery stores in the United States?,Houston, Texas
+Food,What American city produces most of the egg rolls sold in grocery stores in the United States?,Houston Texas
 Food,What was the first of H.J. Heinz' 57 varieties?,Horseradish
 Food,What is the literal meaning of the Italian word linguine?,Little tongues
 Food,Where did the pineapple plant originate?,South America
@@ -213,7 +214,7 @@ Food,What Olympic athlete could not run the 200-meter final in the 92 Olympics b
 Food,What morning food has a name derived from the German word for stirrup?,Michael Johnson
 Food,In 1904 what food product was renamed Post Toasties cereal because the clergy objected to the original name?,Bagel
 Food,In the United States what are the five most frequently eaten fruits?,Elijah's Manna
-Food,Which country does Rioja Wine come from?,banana,apple,watermelon,orange,cantaloupe
+Food,Which country does Rioja Wine come from?,bananaapplewatermelonorangecantaloupe
 Food,The juice of which fruit will you find in a bloody mary?,Spain
 Food,Homer Simpson drinks Which brand of beer regularly?,Tomato
 Food,What is the main ingredient of paella?,Duff
@@ -299,7 +300,7 @@ Food,In the dish of Beef Wellington in what is the beef wrapped?,Pastry
 Food,What is the main vegetable used to make Borsch?,Beetroot
 Food,What is Bombay Duck?,Fish
 Food,Which fruit is used in the making of a Black Forest Gateau?,Black Cherries
-Food,What is included in a BLT sandwich?,Bacon, lettuce and tomato
+Food,What is included in a BLT sandwich?,Bacon lettuce and tomato
 Food,The name of what food when translated means twice-cooked?,Biscuit
 Food,How many calories are there in a stick of celery?,None
 Food,Which country consumes the most pasta per person per year?,Italy
@@ -374,7 +375,7 @@ Computers,What letter is between Q and E on a computer keyboard?,Multi User Comp
 Computers,In computer lingo what is a MUD?,Apple
 Computers,What kind of fruit was used to name a computer in 1984?,Computer
 Computers,In what field of study are the terms CPU PC and VDU used?Science,Computer
-Computers,From what source did William Henry Gates III amass his fortune?software,Weebo, the computer
+Computers,From what source did William Henry Gates III amass his fortune?software,Weebo the computer
 Computers,Charlie the pet dog was replace by what in the remake of the Absent-minded Professor called Flubber in 1997?,Computer
 Computers,What did Charles Babbage invent when he designed his analytical engine in 1833?,Star Wars
 Computers,Movie maker George Lucas Filed a law suit against President Ronald Reagan to get him to stop referring to an outer space computer controlled defense system as what?,4:20 p.m.
@@ -396,5 +397,5 @@ Computers,After breaking into physicist Tsutomu Shimomura's computer on Christma
 Computers,What personal computer became a video production system with the addition of New Tek's Video Toaster?,Intel
 Computers,Digital Equipment Corporation sued what computer chip manufacturer claiming it stole the technology to develop the Pentium Pro?Corporation,PASCAL
 Computers,What was the name of the computer language named after a French philosopher and mathematician?,Apple
-Computers,What was the name of the computer company that was named after the founder's memories of a summer in an Orchard in Oregon?
-Computers,
+Computers,What was the name of the computer company that was named after the founder's memories of a summer in an Orchard in Oregon?,
+Computers,,

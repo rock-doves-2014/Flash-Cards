@@ -79,7 +79,7 @@ class View
     i = 0
     puts "High Scores:"
     # while i == players.length || i <= 10
-    players.each { |player| puts "#{i+=1} #{player.user_name}: #{player.score}" }
+    players.each { |player| puts "#{player.user_name}: #{player.score}" }
   end
 end
 # test = View.new
