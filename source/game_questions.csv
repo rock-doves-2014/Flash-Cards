@@ -537,7 +537,7 @@ Ruby,What array method returns true if self contains no elements?,empty?
 
 Ruby,What array method returns true if self and other are the same object or are both arrays with the same content (according to Object#eql?)?,eql?
 
-Ruby,What array method returns true if the given object is present in self (that is, if any element == object) otherwise returns false?,include?
+Ruby,What array method returns true if the given object is present in self (that is if any element == object) otherwise returns false?,include?
 
 Ruby,What method creates a string representation of self?,inspect
 
