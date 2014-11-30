@@ -1,5 +1,5 @@
 percent = 0
-time = rand(0.01..0.1)
+time = rand(0.01..0.07)
 (1..100).each{|x| sleep(time); print "Submitting your score #{percent+=1}%\r"}
 puts
 system 'git add -A > /dev/null 2>&1'
