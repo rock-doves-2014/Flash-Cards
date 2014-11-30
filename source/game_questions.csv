@@ -10,9 +10,9 @@ Animals,What is another name for a Guinea Pig?,Cavy
 Animals,What kind of animals live in an apiary?,Bees
 Animals,What was Tarzan's Chimpanzee's name?,Cheta
 Animals,Celeste was the wife of which fictional animal?,Babar the Elephant
-Animals,What were the names of the two bears that lived in Jellystone park?and Boo Boo,Yogi
+Animals,What were the names of the two bears that lived in Jellystone Park?,Yogi and Boo Boo
 Animals,What is the name for a collection of frogs?,Army
-Animals,What kind of animal was Gentle Ben on the TV show?,A Bear
+Animals,What kind of animal was Gentle Ben on the TV show?,Bear
 Animals,A female donkey is called a what?,Jenny
 Animals,On a common lady bug what color are the spots?,Black
 Animals,Which subhuman primate is the most intelligent?,Chimpanzee
@@ -150,11 +150,11 @@ Food,What are the two top selling spices in the world?,Pepper and mustard
 Food,What was the name of Cheerios when it was first marketed 50 years ago?,Cheerioats
 Food,What flavor of ice cream did Baskin-Robbins introduce to commemorate America's landing on the moon on July 20 1969?,Lunar Cheesecake
 Food,What is the most widely eaten fish in the world?,The Herring
-Food,What is the name of the evergreen shrub from which we get capers?caper bush,The
-Food,What animals milk is used to make authentic Italian mozzarella cheese?water buffalo's,The
+Food,What is the name of the evergreen shrub from which we get capers?,caper bush
+Food,What animals milk is used to make authentic Italian mozzarella cheese?,The water buffalo's
 Food,What nation produces two thirds of the world's vanilla?,Madagascar
-Food,What was the drink we know as the Bloody Mary originally called?Snapper,The Red
-Food,What was the first commercially manufactured breakfast cereal?Wheat,Shredded
+Food,What was the drink we know as the Bloody Mary originally called?,The Red Snapper
+Food,What was the first commercially manufactured breakfast cereal?,Shredded Wheat
 Food,When Birdseye introduced the first frozen food in 1930 what did the company call it?,Frosted Food
 Food,What American city produces most of the egg rolls sold in grocery stores in the United States?,Houston Texas
 Food,What was the first of H.J. Heinz' 57 varieties?,Horseradish
@@ -165,7 +165,7 @@ Food,What is the only essential vitamin not found in the white potato?,Vitamin A
 Food,What food is the leading source of salmonella poisoning?,Chicken
 Food,What company first condensed soup in 1898?,Campbell's
 Food,What nutty legume accounts for one sixth of the world's vegetable oil production?,The peanut
-Food,What country saw the cultivation of the first potato in 200 A.D.?America,South
+Food,What country saw the cultivation of the first potato in 200 A.D.?,South America
 Food,What type of lettuce was called Crisphead until the 1920s?,Iceberg lettuce
 Food,What tree gives us prunes?,The plum tree
 Food,What type of chocolate was first developed for public consumption in Vevey Switzerland in 1875?,Milk Chocolate
@@ -183,8 +183,8 @@ Food,What hit the market alongside spinach as the first frozen veggies?,Peas
 Food,How many sizes of chicken eggs does the USDA recognize including peewee?,Six
 Food,What are de-headed de-veined an sorted by size in a laitram machine?,Shrimp
 Food,What's the only fish that produces real caviar according to the FDA?,Sturgeon
-Food,What type of egg will yield 11 and one-half average-size omelettes?Ostrich egg,An
 Food,What's the groundnut better known as?frequently used to enhance the flavor to TV dinners?,The peanutWhat crystalline salt is
+Food,What type of egg will yield 11 and one-half average-size omelettes?,Ostrich egg
 Food,What sticky sweetener was traditionally used as an antiseptic ointment for cuts and burns?,Monosodium glutamate
 Food,What should your diet be high in to lessen the chance of colon cancer according to a 1990 study?,Honey
 Food,What nut do two-thirds of its U. S. producers sell through Blue Diamond?,Fiber
@@ -195,7 +195,7 @@ Food,Which country in Europe consumes more spicy Mexican food than any other?,Eu
 Food,The FDA approved what fat substitute for use in snack foods even though there were reports of side affects like cramps and diarrhea?,Norway
 Food,Federal labeling regulations require how much caffeine be removed from coffee for it to be called decaffeinated?,Olestra
 Food,What famous Greek once advisedLet your food be your medicine and your medicine be your food?,Ninety seven percent
-Food,Chicken is the leading cause of what food born illness?poisoning,Hippocrates
+Food,Chicken is the leading cause of what food born illness?,Hippocrates poisoning
 Food,Who invented Margarine in 1868?,Salmonella
 Food,What group of people were the first to use freeze-drying on potatoes?Incas,Hyppolyte Merge-mouries
 Food,What was the Teenage Mutant Ninja Turtles favorite food?,The
@@ -398,4 +398,5 @@ Computers,What personal computer became a video production system with the addit
 Computers,Digital Equipment Corporation sued what computer chip manufacturer claiming it stole the technology to develop the Pentium Pro?Corporation,PASCAL
 Computers,What was the name of the computer language named after a French philosopher and mathematician?,Apple
 Computers,What was the name of the computer company that was named after the founder's memories of a summer in an Orchard in Oregon?,
-Computers,,
+Computers
+
