@@ -597,7 +597,7 @@ Ruby,Is Ruby a strongly typed or a weakly typed language?,Strongly typed
 
 Ruby,Does String include the Enumerable module?,No
 
-Ruby,What is the difference between a character literal such as ?A and a string literal such as "A"?,There is no difference.
+Ruby,What is the difference between a character literal such as ?A and a string literal such as A?,There is no difference.
 
 Ruby,Does String include the Enumerable module?,No
 

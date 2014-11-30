@@ -8,6 +8,7 @@ class View
     puts '2. Food'
     puts '3. Computers'
     puts '4. Sports'
+    puts '5. Ruby'
     puts '~*~'*10
     puts
   end
