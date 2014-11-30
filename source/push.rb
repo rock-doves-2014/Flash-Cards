@@ -1,4 +1,4 @@
 puts "Submitting your score..."
-system 'git add -A > /dev/null'
-system 'git commit -m "Updated High Scores" > /dev/null'
-system 'git push origin online_updater > /dev/null'
+system 'git add -A'
+system 'git commit -m "Updated High Scores"'
+system 'git push origin online_updater'

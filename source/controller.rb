@@ -39,7 +39,9 @@ class Game
       when '3'
         input = 'Computers'
       else
-        raise "No such category"
+        puts "Choosing random category..."
+        sleep 1.5
+        input = ['Animals','Food','Computers'].sample
       end
       @dealer = Dealer.new('game_questions.csv', input)
       next_card
