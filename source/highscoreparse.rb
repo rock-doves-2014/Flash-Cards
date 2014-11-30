@@ -32,7 +32,7 @@ class HighScores
 
   def save
     players_as_hashes = @players.map(&:instance_variables)
-    players_as_hashes.sort! { |a, b| b[:score] <=> a[:score] }
+    players_as_hashes.sort! { |a, b| b[:score].to_i <=> a[:score].to_i }
     export('highscores.csv', players_as_hashes)
   end
 
