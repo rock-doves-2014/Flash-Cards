@@ -38,10 +38,12 @@ class Game
         input = 'Food'
       when '3'
         input = 'Computers'
+      when '4'
+        input = 'Sports'
       else
         puts "Choosing random category..."
         sleep 1.5
-        input = ['Animals','Food','Computers'].sample
+        input = ['Animals','Food','Computers','Sports'].sample
       end
       @dealer = Dealer.new('game_questions.csv', input)
       next_card

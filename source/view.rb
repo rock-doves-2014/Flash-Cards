@@ -7,6 +7,7 @@ class View
     puts '1. Animals'
     puts '2. Food'
     puts '3. Computers'
+    puts '4. Sports'
     puts '~*~'*10
     puts
   end
