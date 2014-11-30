@@ -97,6 +97,7 @@ class Game
     highscore.players
     highscore.changeScore
     View.show_scores(highscore.sort_players)
+    system 'ruby push.rb'
     exit
   end
 
@@ -110,5 +111,6 @@ class Game
 end
 
 # Run the game
+system 'ruby pull.rb'
 game = Game.new
 game.start_menu
