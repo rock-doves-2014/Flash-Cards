@@ -665,6 +665,13 @@ Ruby,What does CoC standfor?,convention over configuration
 
 Ruby,What does DRY standfor?,don't repeat yourself
 
+Ruby,What hash method rebuilds the hash based on the current hash values for each key. If values of key objects have changed since they were inserted this method will reindex hsh?,rehash
+
+Ruby,What hash method returns a new hash created by using hsh’s values as keys, and the keys as values?,invert
+
+Ruby,What method is invoked by Ruby when an obj is sent a message it cannot handle?,method_missing
+
+Ruby,When max is an Integer, ..blank.. returns a random integer greater than or equal to zero and less than max?,rand 
 
 
 
