@@ -8,9 +8,8 @@ class Game
 
   def initialize
     # something to generate new cards
-    @dealer = Dealer.new
     @user = nil
-    @current_card = next_card
+    @current_card = nil
     @score = 0
     @correctly_answered = []
     @incorrectly_answered = []
@@ -26,10 +25,24 @@ class Game
 
   def start_menu
     View.clear
-    View.welcome
+
+    View.enter_username
     input = View.user_input
-    @user = input
+    @user = input.capitalize
     if input.length > 0
+      View.choose_category
+      case View.user_input
+      when '1'
+        input = 'Animals'
+      when '2'
+        input = 'Food'
+      when '3'
+        input = 'Computers'
+      else
+        raise "No such category"
+      end
+      @dealer = Dealer.new('game_questions.csv', input)
+      next_card
       play_game
     else
       start_menu
@@ -56,14 +69,14 @@ class Game
         View.correct
         mark_correct(@current_card)
         @score+=1
-        # sleep 2
+        sleep 1.5
       else
         View.incorrect(@current_card.answer)
         mark_incorrect(@current_card)
         if @incorrectly_answered.length >=3
           end_game
         end
-        # sleep 2
+        sleep 1.5
       end
       if next_card
         next_card
@@ -83,6 +96,7 @@ class Game
     highscore = HighScores.new(@user, @score)
     highscore.players
     highscore.changeScore
+    View.show_scores(highscore.sort_players)
     exit
   end
 

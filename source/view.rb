@@ -1,5 +1,17 @@
 class View
-  def self.welcome
+  def self.choose_category
+    puts '~*~'*10
+    puts 'Welcome to BrainSnap'
+    puts
+    puts 'Select a category:'
+    puts '1. Animals'
+    puts '2. Food'
+    puts '3. Computers'
+    puts '~*~'*10
+    puts
+  end
+
+  def self.enter_username
     puts '~*~'*10
     puts 'Welcome to BrainSnap'
     puts
@@ -28,17 +40,20 @@ class View
 
   def self.show_card(question)
     puts "#{question}"
+    puts
   end
 
   def self.correct
     responses = ["That's Right", "Great Job Yo", "How did you know that? That shit's crazy.", "You must be a Rock Dove.", "How do you fit such a big brain in such a small head?", "Teach me your ways Kemosabe", "Correct!", "BAM!"]
     puts responses.sample
+    puts
   end
 
   def self.incorrect(correct_answer)
     responses = ["Dang son you need to study...", "Really?", "(incorrect buzzer noise)", "Hahaha nice try.", "Outlook not so good", "Time for a beer I guess, we're in for the long haul"]
     puts responses.sample
-    puts "The correct response is:" + correct_answer + ""
+    puts "The correct response is: " + correct_answer + ""
+    puts
   end
 
   def self.show_results(num_correct, num_incorrect)
@@ -51,13 +66,20 @@ class View
     elsif num_incorrect > num_correct
       puts "You got some work to do."
     end
-    puts "You got #{num_correct} right!"
-    puts "You got #{num_incorrect} wrong!"
+    puts "Total right: #{num_correct}"
+    puts "Total wrong: #{num_incorrect}"
     puts '--------------------------------------'
   end
 
   def self.clear
     puts "\e[H\e[2J"
+  end
+
+  def self.show_scores(players)
+    i = 0
+    puts "High Scores:"
+    # while i == players.length || i <= 10
+    players.each { |player| puts "#{i+=1} #{player.user_name}: #{player.score}" }
   end
 end
 # test = View.new

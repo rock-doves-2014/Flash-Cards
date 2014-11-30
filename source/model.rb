@@ -37,14 +37,15 @@ class Dealer
    include CSVParser
 
   # Pull data from the csv and parses into hashes
-   def initialize
-    @file = import("game_questions.csv")
-    @cards_array = @file.map{|row| FlashCard.new(row)}
-  end
+   def initialize(file, cat)
+       @file = import(file)
+       @cards_array = @file.map{|row| FlashCard.new(row) if row[:category] == cat }
+       @cards_array.compact!
+     end
 
   # Map csv hashes into an individual FlashCard object
    def load_card #(draw card?)
-    @cards_array.shift
+    @cards_array.shuffle!.shift
   end
 
   #Check users guess agains the answer for the current card.
