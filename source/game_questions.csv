@@ -523,12 +523,147 @@ Sports, What Dallas quarterback fumbled a record five times in four Super Bowl g
 
 Sports,What were NFL players required to wear in games for the first time in 1943?,Helmets
 
+Ruby,What year was the Ruby programming language written in?,1993
 
+Ruby,What array method deletes the element(s) given by an index (optionally up to length elements) or by a range?,slice!
 
+Ruby,What array method returns a new array by removing duplicate values in self?,uniq
 
+Ruby,Who wrote the Ruby programming language?,Yukihiro Matsumoto
 
+Ruby,What array method calls the given block once for every element in self passing that element as a parameter?,each
 
+Ruby,What array method returns true if self contains no elements?,empty?
 
+Ruby,What array method returns true if self and other are the same object or are both arrays with the same content (according to Object#eql?)?,eql?
+
+Ruby,What array method returns true if the given object is present in self (that is, if any element == object) otherwise returns false?,include?
+
+Ruby,What method creates a string representation of self?,inspect
+
+Ruby,What array method deletes every element of self for which the given block evaluates to false?,keep_if
+
+Ruby,What method returns the number of elements in self?,length
+
+Ruby,What method invokes the given block once for each element of self, replacing the element with the value returned by the block?,map
+
+Ruby,What array method removes the last element from self and returns it or nil if the array is empty?,pop
+
+Ruby,What array method returns a new array containing the items in self for which the given block is not true?,reject
+
+Ruby,What array method chooses a random element or n random elements from the array?,sample
+
+Ruby,What array method removes the first element of self and returns it (shifting all other elements down by one). Returns nil if the array is empty?,shift
+
+Ruby,What array method returns self?,to_a
+
+Ruby,What string method returns the length of str in bytes?,bytesize
+
+Ruby,What string method returns a new String with the last character removed?,chop
+
+Ruby,What string method makes the string emptpy?,clear
+
+Ruby,What string method produces a version of str with all non-printing characters replaced by \nnn notation and all special characters escaped?,dump
+
+Ruby,What string method passes each character in str to the given block, or returns an enumerator if no block is given?,each_char
+
+Ruby,What string method returns true if str has a length of zero?,empty?
+
+Ruby,What string method returns a copy of str with the all occurrences of pattern substituted for the second argument?,gsub
+
+Ruby,What hash method deletes every key-value pair from hsh for which block evaluates to false?,keep_if
+
+Ruby,What does MVC standfor?,Model View Controller
+
+Ruby,Who invented Ruby on Rails?,David Heinemeier Hansson
+
+Ruby,What year was Rails invented?,2003
+
+Ruby,Who invented RubyMotion?,Laurent Sansonetti
+
+Ruby,What is nil * nil in Ruby?,undefined method `*' for nil:NilClass
+
+Ruby,What is the highest level in the object model?,BasicObject
+
+Ruby,Is everything in Ruby an object?,No
+
+Ruby,Which core object includes the Kernel module?,Object
+
+Ruby,What can you say about an identifier that begins with a capital letter?,Constant
+
+Ruby,Is Ruby a statically typed or a dynamically typed language?,Dynamically
+
+Ruby,Is Ruby a strongly typed or a weakly typed language?,Strongly typed
+
+Ruby,Does String include the Enumerable module?,No
+
+Ruby,What is the difference between a character literal such as ?A and a string literal such as "A"?,There is no difference.
+
+Ruby,Does String include the Enumerable module?,No
+
+Ruby,Which operator must be defined in order to implement the Comparable module?,<=>
+
+Ruby,Which binds more tightly? && or and,&&
+
+Ruby,Which binds more tightly? && or =,&&
+
+Ruby,Which binds more tightly? and or =,=
+
+Ruby,Which binds more tightly? && or ||,&&
+
+Ruby,Does a while block define a new scope?,No
+
+Ruby,Does the case statement in Ruby have fall-through behavior?,No
+
+Ruby,Does a rescue block define a new scope?,No
+
+Ruby,What is the synonym of Enumerable#include?,member?
+
+Ruby,Can a collection be modified while it is being iterated upon?,Yes
+
+Ruby,Is a block an object?,No
+
+Ruby,What is the synonym of Enumberable#collect?,map
+
+Ruby,What is the synonym of Enumberable#find?,detect
+
+Ruby,What is the synonym of Enumberable#select?,find_all
+
+Ruby,What is the opposite of Enumberable#select?,reject
+
+Ruby,What is the synonym of Enumberable#inject?,reduce
+
+Ruby,Does Ruby support method overloading?,No
+
+Ruby,What is the meaning of self?,The current object.
+
+Ruby,Is a method an object?,No
+
+Ruby,What must you first do before you can invoke an UnboundMethod object?,bind
+
+Ruby,Are method objects closures?,No
+
+Ruby,How do you obtain a Method object from an existing module/class?,Using Object#method
+
+Ruby,Are constants public or private?,Public
+
+Ruby,Can methods be added to a Struct?,Yes
+
+Ruby,Which popular social media site was build on Rails...Facebook Twitter or MySpace?,Twitter
+
+Ruby,Who is the best programmer to ever live?,Dylan Shine
+
+Ruby,Who is the author of POODR?,Sandi Metz
+
+Ruby,Is Sandi Metz a man or a women?,women
+
+Ruby,What programming style is better...metaprogramming or object oriented?,object oriented
+
+Ruby,What does TDD standfor?,Test driven development
+
+Ruby,What does CoC standfor?,convention over configuration
+
+Ruby,What does DRY standfor?,don't repeat yourself
 
 
 
