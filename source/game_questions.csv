@@ -673,6 +673,36 @@ Ruby,What method is invoked by Ruby when an obj is sent a message it cannot hand
 
 Ruby,When max is an Integer, ..blank.. returns a random integer greater than or equal to zero and less than max?,rand 
 
+Ruby,What time method returns true if time occurs during Daylight Saving Time in its time zone?,dst?
+
+Ruby,What method combines all elements of enum by applying a binary operation, specified by a block or a symbol that names a method or operator?,inject
+
+Ruby,What method returns two arrays the first containing the elements of enum for which the block evaluates to true the second containing the rest?,partition
+
+Ruby,What method passes elements to the block until the block returns nil or false then stops iterating and returns an array of all prior elements?,take_while
+
+Ruby,Who developed the Sinatra web application framework?,Blake Mizerany
+
+Ruby,What Ruby operator divides left hand operand by right hand operand and returns remainder?,%
+
+Ruby,What Ruby operator performs exponential (power) calculation on operators?,**
+
+Ruby,What Ruby operator add AND assignment operator It adds right operand to the left operand and assign the result to left operand?,+=
+
+Ruby,What Ruby operator is moved left by the number of bits specified by the right operand?,<<
+
+Ruby,What Ternary operator represents a Conditional Expression?,?;
+
+Ruby,What syntax is used to define a global variable?,$
+
+Ruby,What syntax is used to define a class variable?,@@
+
+Ruby,What syntax is used to define an instance variable?,@
+
+Ruby,What does IRB standfor?,Interactive Ruby Shell
+
+
+
 
 
 
