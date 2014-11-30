@@ -691,7 +691,7 @@ Ruby,What Ruby operator add AND assignment operator It adds right operand to the
 
 Ruby,What Ruby operator is moved left by the number of bits specified by the right operand?,<<
 
-Ruby,What Ternary operator represents a Conditional Expression?,?;
+Ruby,What Ternary operator represents a Conditional Expression?,?:
 
 Ruby,What syntax is used to define a global variable?,$
 
