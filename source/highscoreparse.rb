@@ -61,6 +61,6 @@ class HighScores
 
     def sort_players
       @players = import(@file).map {|player| Player.new player}
-      @players.sort { |a, b| b.score <=> a.score }
+      @players.sort! { |a, b| b.score <=> a.score }
     end
   end
