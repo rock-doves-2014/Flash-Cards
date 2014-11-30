@@ -1,5 +1,5 @@
 percent = 0
-time = rand(0.01..0.04)
+time = rand(0.01..0.1)
 (1..100).each{|x| sleep(time); print "Submitting your score...#{percent+=1}%\r"}
 puts
 print "Score successfully submitted."
