@@ -67,7 +67,6 @@ class View
       puts "You got some work to do."
     end
     puts "Total right: #{num_correct}"
-    puts "Total wrong: #{num_incorrect}"
     puts '--------------------------------------'
   end
 
