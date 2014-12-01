@@ -1,4 +1,3 @@
-# require 'byebug'
 class Player
   attr_accessor :instance_variables, :user_name, :score
   def initialize(args)
